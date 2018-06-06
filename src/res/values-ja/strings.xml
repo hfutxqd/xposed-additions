@@ -107,12 +107,12 @@
     <string name="preference_state_click">クリック</string>
     <string name="preference_state_press">長押し</string>
 
-    <string name="preference_condition_count_$0">動作条件 未設定</string>
-    <string name="preference_condition_count_$1">動作条件数 : %1$d</string>
+    <string name="preference_condition_count_0">動作条件 未設定</string>
+    <string name="preference_condition_count_1">動作条件数 : %1$d</string>
     <string name="preference_condition_count">動作条件数 : %1$d</string>
 
-    <string name="preference_action_count_$0">アクション 未設定</string>
-    <string name="preference_action_count_$1">アクション数 : %1$d</string>
+    <string name="preference_action_count_0">アクション 未設定</string>
+    <string name="preference_action_count_1">アクション数 : %1$d</string>
     <string name="preference_action_count">アクション数 : %1$d</string>
 
     <string name='alert_dialog_name_intercept_key'>キーコード</string>
@@ -121,9 +121,9 @@
     <string name='alert_dialog_summary_intercept_key_second'>必要に応じて2つ目のキーを押してください</string>
     <string name='alert_dialog_title_key_exists'>このキーはすでに登録されています</string>
 
-    <string name="condition_type_$on">画面オン</string>
-    <string name="condition_type_$off">画面オフ</string>
-    <string name="condition_type_$guard">ロック画面</string>
+    <string name="condition_type_on">画面オン</string>
+    <string name="condition_type_off">画面オフ</string>
+    <string name="condition_type_guard">ロック画面</string>
 
     <!-- ================================================
          Strings for ActivitySelectorRemap

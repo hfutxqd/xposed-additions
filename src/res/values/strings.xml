@@ -107,12 +107,12 @@
     <string name="preference_state_click">Click</string>
     <string name="preference_state_press">Long Press</string>
 
-    <string name="preference_condition_count_$0">No Conditions</string>
-    <string name="preference_condition_count_$1">%1$d Condition</string>
+    <string name="preference_condition_count_0">No Conditions</string>
+    <string name="preference_condition_count_1">%1$d Condition</string>
     <string name="preference_condition_count">%1$d Conditions</string>
     
-    <string name="preference_action_count_$0">No Active Actions</string>
-    <string name="preference_action_count_$1">%1$d Active Action</string>
+    <string name="preference_action_count_0">No Active Actions</string>
+    <string name="preference_action_count_1">%1$d Active Action</string>
     <string name="preference_action_count">%1$d Active Actions</string>
     
     <string name='alert_dialog_name_intercept_key'>Key Code</string>
@@ -121,9 +121,9 @@
 	<string name='alert_dialog_summary_intercept_key_second'>Press another to add a secondary key</string>
 	<string name='alert_dialog_title_key_exists'>The key already exists in the collection</string>
 	
-	<string name="condition_type_$on">Screen On</string>
-	<string name="condition_type_$off">Screen Off</string>
-	<string name="condition_type_$guard">Lock Screen</string>
+	<string name="condition_type_on">Screen On</string>
+	<string name="condition_type_off">Screen Off</string>
+	<string name="condition_type_guard">Lock Screen</string>
     
     <!-- ================================================
          Strings for ActivitySelectorRemap

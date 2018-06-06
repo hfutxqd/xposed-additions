@@ -107,12 +107,12 @@
     <string name="preference_state_click">Клик</string>
     <string name="preference_state_press">Дуги притисак</string>
 
-    <string name="preference_condition_count_$0">Нема услова</string>
-    <string name="preference_condition_count_$1">%1$d услов</string>
+    <string name="preference_condition_count_0">Нема услова</string>
+    <string name="preference_condition_count_1">%1$d услов</string>
     <string name="preference_condition_count">%1$d услова</string>
     
-    <string name="preference_action_count_$0">Нема активних радњи</string>
-    <string name="preference_action_count_$1">%1$d активна радња</string>
+    <string name="preference_action_count_0">Нема активних радњи</string>
+    <string name="preference_action_count_1">%1$d активна радња</string>
     <string name="preference_action_count">%1$d активних радњи</string>
     
     <string name='alert_dialog_name_intercept_key'>Кôд тастера</string>
@@ -121,9 +121,9 @@
 	<string name='alert_dialog_summary_intercept_key_second'>Притисните други да бисте додали секундарни тастер</string>
 	<string name='alert_dialog_title_key_exists'>Тастер већ постоји у збирци</string>
 	
-	<string name="condition_type_$on">Екран укљ</string>
-	<string name="condition_type_$off">Екран искљ</string>
-	<string name="condition_type_$guard">Екран закљ</string>
+	<string name="condition_type_on">Екран укљ</string>
+	<string name="condition_type_off">Екран искљ</string>
+	<string name="condition_type_guard">Екран закљ</string>
     
     <!-- ================================================
          Strings for ActivitySelectorRemap

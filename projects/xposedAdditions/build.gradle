@@ -3,14 +3,13 @@ apply plugin: 'com.android.application'
 buildDir = "${System.properties['user.home']}/.gradle/build/${rootProject.name}/${project.name}"
 
 android {
-    compileSdkVersion 22
-    buildToolsVersion "22.0.1"
+    compileSdkVersion 27
 
     defaultConfig {
         applicationId "com.spazedog.xposed.additionsgb"
 
-        minSdkVersion 9
-        targetSdkVersion 22
+        minSdkVersion 14
+        targetSdkVersion 27
         versionCode 75
         versionName "3.6.3"
     }
@@ -28,8 +27,8 @@ android {
     }
 
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_6
-        targetCompatibility JavaVersion.VERSION_1_6
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
     }
 
     lintOptions {
@@ -45,8 +44,8 @@ repositories {
 }
 
 dependencies {
-    compile fileTree(dir: '../../src/libs', include: ['*.jar'])
-    compile (name:'reflectTools-release', ext:'aar')
-    compile 'com.android.support:appcompat-v7:22.2.0'
-    compile 'com.android.support:support-v4:22.2.0'
+    implementation fileTree(dir: '../../src/libs', include: ['*.jar'])
+    implementation (name:'reflectTools-release', ext:'aar')
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    implementation 'com.android.support:support-v4:27.1.1'
 }
