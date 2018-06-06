@@ -153,9 +153,9 @@ public class ActivitySelectorRemap extends PreferenceActivity implements OnPrefe
     		
     		if ("add_condition".equals(mAction)) {
 				preferenceScreen.removePreference(findPreference("custom_group"));
-				preferenceScreen.addPreference(getSelectPreference(getResources().getString(R.string.condition_type_$on), null, "on", null, null));
-				preferenceScreen.addPreference(getSelectPreference(getResources().getString(R.string.condition_type_$off), null, "off", null, null));
-				preferenceScreen.addPreference(getSelectPreference(getResources().getString(R.string.condition_type_$guard), null, "guard", null, null));
+				preferenceScreen.addPreference(getSelectPreference(getResources().getString(R.string.condition_type_on), null, "on", null, null));
+				preferenceScreen.addPreference(getSelectPreference(getResources().getString(R.string.condition_type_off), null, "off", null, null));
+				preferenceScreen.addPreference(getSelectPreference(getResources().getString(R.string.condition_type_guard), null, "guard", null, null));
 				
     		} else if ("add_action".equals(mAction)) {
     			PreferenceCategory category = (PreferenceCategory) findPreference("custom_group");
